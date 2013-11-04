@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Airbag
+Bundle-SymbolicName: my.project.osgi.airbag
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Export-Package: my.project.osgi.airbag
+Require-Bundle: org.eclipse.equinox.common;bundle-version="3.6.100"
+Bundle-Activator: my.project.osgi.airbag.internal.bundle.Activator
+Import-Package: org.eclipse.core.runtime.jobs,
+ org.osgi.framework;version="1.7.0"
