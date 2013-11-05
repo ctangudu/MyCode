@@ -23,3 +23,4 @@
 <booleanAttribute key="useDefaultConfigArea" value="true"/>
 <stringAttribute key="workspace_bundles" value="my.project.osgi.airbag@default:default,my.project.osgi.emergancyMonitor@5:default,my.project.osgi.gps@default:default"/>
 </launchConfiguration>
+<!-- test -->

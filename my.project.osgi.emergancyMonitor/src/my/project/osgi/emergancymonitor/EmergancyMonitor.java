@@ -13,11 +13,10 @@ import my.project.osgi.gps.IGps;
  */
 public class EmergancyMonitor implements IAirbagListener {
 
-	private IAirbag airbag;
+	private IAirbag airbag = null;
 
 	private IGps gps;
 
-	@Override
 	public void deployed() {
 		System.out.println("Emeergancy occurred at lat =" + gps.getLattitude()
 				+ " lon= " + gps.getLongitude() + " heading= "
