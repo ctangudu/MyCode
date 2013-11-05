@@ -13,7 +13,7 @@ import my.project.osgi.gps.IGps;
  */
 public class EmergancyMonitor implements IAirbagListener {
 
-	private IAirbag airbag;
+	private IAirbag airbag = null;
 
 	private IGps gps;
 
