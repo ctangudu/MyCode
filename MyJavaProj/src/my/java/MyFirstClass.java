@@ -11,5 +11,11 @@ public class MyFirstClass {
 		}
 	} 
 	
+	class Child extends Parent{
+		void childMethod(){
+			System.out.println("Child method");
+		}
+	}
+	
 }
 
