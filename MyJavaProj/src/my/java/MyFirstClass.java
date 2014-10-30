@@ -11,7 +11,7 @@ public class MyFirstClass {
 		void parentMethod(){
 			System.out.println("Parent method");
 		}
-	} 
+	}  
 	
 	class Child extends Parent{
 		void childMethod(){
