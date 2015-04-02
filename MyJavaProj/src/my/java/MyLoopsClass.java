@@ -3,6 +3,9 @@
  */
 package my.java;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author 929284
  *
@@ -55,6 +58,9 @@ public class MyLoopsClass {
 		String str2 = "test";// new String("test");
 		System.out.println("equals "+str1.equals(str2));
 		System.out.println(":: "+str1 == str2);
+		
+		List<String> list = new ArrayList<String>();
+		list.add(null);
 	}
 	
 	@Override
