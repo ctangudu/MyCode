@@ -16,10 +16,11 @@
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Dosgi.console.enable.builtin=true"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <booleanAttribute key="show_selected_only" value="false"/>
-<stringAttribute key="target_bundles" value="org.eclipse.core.jobs@default:default,org.eclipse.equinox.common@2:true,org.eclipse.equinox.weaving.hook@default:false,org.eclipse.osgi@-1:true"/>
+<stringAttribute key="target_bundles" value="org.eclipse.core.jobs@default:default,org.eclipse.equinox.common@2:true,org.eclipse.osgi@-1:true"/>
 <stringAttribute key="timestamp" value="1383544156868"/>
 <booleanAttribute key="tracing" value="false"/>
 <booleanAttribute key="useCustomFeatures" value="false"/>
 <booleanAttribute key="useDefaultConfigArea" value="true"/>
 <stringAttribute key="workspace_bundles" value="my.project.osgi.airbag@default:default,my.project.osgi.emergancyMonitor@5:default,my.project.osgi.gps@default:default"/>
 </launchConfiguration>
+<!-- test -->

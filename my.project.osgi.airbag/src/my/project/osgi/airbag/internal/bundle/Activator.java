@@ -25,7 +25,6 @@ public class Activator implements BundleActivator {
 	 * 
 	 * @see )
 	 */
-	@Override
 	public void start(BundleContext context) throws Exception {
 		airbag = new MockAirbag();
 		airbag.startUp();
@@ -39,7 +38,6 @@ public class Activator implements BundleActivator {
 	 * @see
 	 * org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
 	 */
-	@Override
 	public void stop(BundleContext context) throws Exception {
 		serviceRegistration.unregister();
 		airbag.shutDown();
