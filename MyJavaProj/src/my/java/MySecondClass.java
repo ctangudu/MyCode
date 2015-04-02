@@ -7,7 +7,7 @@ package my.java;
  * @author Chaitanya
  *
  */
-public class MySecondClass {
+class MySecondClass2 {
 
 	/**
 	 * @param args
@@ -36,3 +36,9 @@ class Horse extends Animal{
 		System.out.println("Eat grass");
 	}
 }
+
+abstract public class MySecondClass{
+	
+}
+
+interface testing{};
