@@ -43,7 +43,6 @@ public class MockAirbag implements IAirbag {
 		isRunning = true;
 		job = new Job("Moke air bad") {
 
-			@Override
 			protected IStatus run(IProgressMonitor monitor) {
 				deploy();
 				if (isRunning) {
