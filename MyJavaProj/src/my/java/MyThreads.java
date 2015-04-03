@@ -5,14 +5,23 @@ public class MyThreads {
 	public static void main(String[] args) {
 		Thread thread = new Thread(new MyRunnable());
 		thread.setName("Thread 1");
-		thread.start();
+//		thread.start();
 		// thread = new Thread(new MyRunnable());
 		// thread.setName("Thread 2");
 		// thread.start();
 		// thread = new Thread(new MyRunnable());
-
+		Thread t1 = new TThread();
+		t1.start();
+		System.out.println("Main thread");
 	}
 
+}
+
+class TThread extends Thread{
+	@Override
+	public void run() {
+		System.out.println("Running the thread");
+	}
 }
 
 class MyRunnable implements Runnable {
