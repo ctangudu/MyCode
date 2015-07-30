@@ -9,7 +9,7 @@ package my.java;
  */
 public class MyOuter {
 
-	
+	//0000
 	
 	class MyInnerCls{
 		
