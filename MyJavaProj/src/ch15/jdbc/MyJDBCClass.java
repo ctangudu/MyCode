@@ -1,7 +1,7 @@
 /**
  * 
  */
-package my.java;
+package ch15.jdbc;
 
 /**
  * @author 929284
