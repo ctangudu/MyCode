@@ -43,6 +43,7 @@ import org.osgi.framework.Bundle;
  * @author Dan Rubel
  */
 public class ResourceManager extends SWTResourceManager {
+	
 	////////////////////////////////////////////////////////////////////////////
 	//
 	// Image
